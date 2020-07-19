@@ -1,6 +1,6 @@
 class ClassName(object):
-    def __init__(self):
-        self.print_until_number(2)
+    # def __init__(self):
+        # self.print_until_number(number)
 
     def print_until_number(self, number):
         i = 0
@@ -11,7 +11,8 @@ class ClassName(object):
 
 def main():
     #write your code below this line
-    ClassName()
+    x = ClassName()
+    x.print_until_number(5)
 
 if __name__ == '__main__':
     main()
