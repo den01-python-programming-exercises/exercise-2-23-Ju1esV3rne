@@ -1,7 +1,4 @@
-class ClassName(object):
-    # def __init__(self):
-        # self.print_until_number(number)
-
+class ClassName():
     def print_until_number(self, number):
         i = 0
         while i < number:
