@@ -1,4 +1,4 @@
-class ClassName():
+class MyExercise():
     def print_until_number(self, number):
         i = 0
         while i < number:
