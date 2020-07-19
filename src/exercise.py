@@ -8,7 +8,7 @@ class MyExercise():
 
 def main():
     #write your code below this line
-    x = ClassName()
+    x = MyExercise()
     x.print_until_number(5)
 
 if __name__ == '__main__':
