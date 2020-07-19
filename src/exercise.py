@@ -1,6 +1,4 @@
 class ClassName(object):
-    """docstring for ."""
-
     def __init__(self):
         self.print_until_number(2)
 
