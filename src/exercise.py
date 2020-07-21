@@ -1,17 +1,16 @@
 class MyExercise():
-    def __init__(self, *args):
-        pass
+    def __init__(self, number):
+        self.number = number
 
-    def print_until_number(self, number):
+    def pprint_until_number(self):
         i = 0
-        while i < number:
+        while i < self.number:
             print(i + 1)
             i += 1
 
-
-def main():
+def print_until_number():
     #write your code below this line
-    MyExercise().print_until_number(2)
+    MyExercise(3).pprint_until_number()
 
 if __name__ == '__main__':
     main()
